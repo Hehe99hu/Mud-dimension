@@ -1,0 +1,15 @@
+{
+  "type": "muddimension:mud_dimension",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "muddimension:mud_biome",
+      "layers": [
+        {"block": "minecraft:mud", "height": 1},
+        {"block": "minecraft:mud", "height": 1},
+        {"block": "minecraft:mud", "height": 1}
+      ],
+      "structure_overrides": []
+    }
+  }
+}
