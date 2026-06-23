@@ -1,13 +1,11 @@
 {
-  "type": "muddimension:mud_dimension",
+  "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "muddimension:mud_biome",
+      "biome": "minecraft:plains",
       "layers": [
-        {"block": "minecraft:mud", "height": 1},
-        {"block": "minecraft:mud", "height": 1},
-        {"block": "minecraft:mud", "height": 1}
+        {"block": "minecraft:mud", "height": 64}
       ],
       "structure_overrides": []
     }
